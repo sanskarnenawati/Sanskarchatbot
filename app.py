@@ -1,9 +1,13 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Importing CORS
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import random
 
 app = Flask(__name__)
+
+# Enable CORS for all domains (use this for testing, for production use more specific rules)
+CORS(app)
 
 qa_pairs = {
     "Who are you?": "Hi! I'm Sanskar Nenawati, an AI/ML Engineer.",
@@ -14,7 +18,7 @@ qa_pairs = {
 }
 
 generic_responses = [
-    "Sorry Tumahare PRASHANA KA Answer hamare pass Nhi Hai , Please Call Karein +91 9119315955"
+    "Sorry Tumahare PRASHANA KA Answer hamare pass Nhi Hai , Please Call Karein +91 9119315955",
     "Sorry, I don't have an answer for that. Can you ask something else?",
     "I'm still learning, please ask me something else.",
     "That's an interesting question! Let me think about it.",
@@ -51,7 +55,3 @@ def chatbot():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-
-
