@@ -15,7 +15,7 @@ qa_pairs = {
     "What are your skills?": "I specialize in Python, HTML, CSS, SQL, MongoDB, and libraries like PyTorch, OpenCV, scikit-learn.",
     "Tell me about your projects": "Check out my projects at https://sanskarnenawati.info/#project-section.",
     "Where do you live ?":" I am from Bhilwara rajashan but currently I live in vadodara, gujrat "
-    "hi":"Helooooo BBG " 
+    "hi":"Helooooo BBG ",
     "Do You want to do freelance work ?": "Yess Always , i am available to do freelance work contact me at sanskarnenawati@yahoo.com"
     "How can I contact you?": "You can reach me at Sanskarnenawati@yahoo.com."
 }
