@@ -1,3 +1,9 @@
+from flask import Flask, request, jsonify
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import random
+
+app = Flask(__name__)
 
 qa_pairs = {
     "Who are you?": "Hi! I'm Sanskar Nenawati, an AI/ML Engineer.",
