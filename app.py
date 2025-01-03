@@ -11,11 +11,11 @@ CORS(app)
 
 qa_pairs = {
     "Who are you?": "Hi! I'm Sanskar Nenawati, an AI/ML Engineer.",
+    "Hi?": "Hi! Wassup.",
     "What do you do?": "I specialize in Machine Learning, Data Analytics, NLP, and Gen AI.",
     "What are your skills?": "I specialize in Python, HTML, CSS, SQL, MongoDB, and libraries like PyTorch, OpenCV, scikit-learn.",
     "Tell me about your projects": "Check out my projects at https://sanskarnenawati.info/#project-section.",
     "Where do you live ?":" I am from Bhilwara rajashan but currently I live in vadodara, gujrat "
-    "Hi":" Helloooo BBG! Wassup "
     "Do You want to do freelance work ?": "Yess Always , i am available to do freelance work contact me at sanskarnenawati@yahoo.com"
     "How can I contact you?": "You can reach me at Sanskarnenawati@yahoo.com."
 }
